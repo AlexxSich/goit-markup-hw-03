@@ -4,12 +4,44 @@ body {
     background-color: #FFFFFF;
 }
 
+/* reset default settings */
 a {
     text-decoration: none;
 }
 
 ul {
     list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+/* container */
+.container {
+    max-width: 1440px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* logo */
@@ -29,6 +61,13 @@ ul {
 }
 
 /* navigation menu */
+
+.menu-nav {
+    display: flex;
+    flex-basis: 261px;
+    justify-content: center;
+
+}
 
 .menu-nav-item {
     color: #2E2F42;
