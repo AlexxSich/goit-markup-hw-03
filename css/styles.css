@@ -171,9 +171,9 @@ img {
     padding: 120px 0;
 }
 
-/* .visually-hidden {
-    display: none;
-} */
+.visually-hidden {
+    visibility: hidden;
+}
 
 .our-goals {
     display: flex;
